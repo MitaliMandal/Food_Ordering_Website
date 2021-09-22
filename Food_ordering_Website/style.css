@@ -1,0 +1,89 @@
+.hero_image {
+    background-image: url(media/images\ \(6\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;  
+} 
+.hero_wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.hero_wrapper h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.hero_wrapper samp {
+    margin: 70px;
+    margin-bottom: ;
+}
+
+.form_code {
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    padding: 8px;
+    border: none;
+    
+}   
+
+.form_code button {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:rgb(5, 192, 192);
+    color: whitesmoke;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+/*utility classes*/
+.img_responsive {
+    max-width: 100%;
+    
+}
+
+
+/*product section*/
+.product {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.product_list_item {
+    float: left;
+    width: 32.1%;
+    margin-top: 5px;
+    margin-right: .5em;
+
+}
+
+.product_list_item :first-of-type {
+    margin-left: 16px;
+
+}
+
+@media screen and (max-width: 700px){
+    .product_list_item {
+        width: 100%;
+        float: none;
+    }
+
+}
